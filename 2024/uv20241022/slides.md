@@ -12,21 +12,12 @@ htmlAttrs:
   lang: ja
 ---
 
-# Vue.js 学習の振り返り<carbon-logo-vue />
-
-<!-- <div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div> -->
+# <span class="text-green-600">Vue.js</span> 学習の振り返り<carbon-logo-vue />
 <div>
   <span class="mr-6">2024/10/22</span>
   <span>hiro</span>
 </div>
 <div class="abs-br m-6 flex gap-0">
-  <!-- <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button> -->
   <a href="https://x.com/hiro_xre" target="_blank" alt="GitHub" title="Open in X"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-x />
@@ -36,10 +27,6 @@ htmlAttrs:
     <carbon-logo-github />
   </a>
 </div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
 
 ---
 transition: fade-out
