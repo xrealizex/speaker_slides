@@ -53,31 +53,17 @@ h1 {
 </style>
 
 ---
-transition: slide-up
+transition: fade-out
 level: 2
 ---
 
-# Navigation
+# はじめに
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
+<div>
+  <p>自身のVue.js学習内容を振り返り、良かったことを挙げていく。</p>
+  <p>少しでも参考になるものがあれば幸いです！</p>
+</div>
 
-## Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
 ---
 layout: two-cols
