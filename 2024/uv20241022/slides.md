@@ -54,16 +54,13 @@ h1 {
 
 ---
 transition: fade-out
-level: 2
 ---
 
 # はじめに
-
-<div>
+<div class="mt-10">
   <p>自身のVue.js学習内容を振り返り、良かったことを挙げていく。</p>
   <p>少しでも参考になるものがあれば幸いです！</p>
 </div>
-
 
 ---
 layout: two-cols
