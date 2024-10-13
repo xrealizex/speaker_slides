@@ -34,7 +34,7 @@ transition: fade-out
 
 # アジェンダ
 1. はじめに
-2. xxx
+2. チュートリアル
 3. xxx
 4. xxx
 5. xxx
@@ -58,156 +58,60 @@ transition: fade-out
 
 # はじめに
 <div class="mt-10">
-  <p>自身のVue.js学習内容を振り返り、良かったことを挙げていく。</p>
+  <p>自身のVue.js学習内容から良かったことを挙げていきます</p>
   <p>少しでも参考になるものがあれば幸いです！</p>
 </div>
 
 ---
-layout: two-cols
-layoutClass: gap-16
+transition: fade-out
 ---
 
-# Table of contents
+# チュートリアル
 
-You can use the `Toc` component to generate a table of contents for your slides:
+https://ja.vuejs.org/tutorial/#step-1
 
-```html
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
+実はチュートリアルのはじめに大事なことが書いてありました
+> このチュートリアルの目的はブラウザーで Vue で作業することがどのような感じなのかいち早く体験してもらうことです。網羅的な内容を目指すものではないため、すべてを理解してから次に進む必要はありません。しかしながら、すべてを完了したあと、各項目についてより詳しく説明しているガイドを必ずお読みください。
 
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
+ここで大事な部分は
+> すべてを完了したあと、各項目についてより詳しく説明しているガイドを必ずお読みください。
 
-::right::
+です
 
-<Toc v-click minDepth="1" maxDepth="2"></Toc>
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
+**ガイド**読んでいますか？
 
 ---
-level: 2
+transition: fade-out
+layout: image
+image: ./public/images/computed.png
 ---
 
-# Shiki Magic Move
+---
+transition: fade-out
+layout: image
+image: ./public/images/computed-guide.png
+---
 
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
+---
+transition: fade-out
+---
 
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
+# 改めてガイドを読む
 
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
+何が言いたいかというと...
 
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
+今からでもチュートリアル内のリンクを追っていくだけで得られるものがあるはず
 
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
+先ほどの例ではcomputed定義とメソッド定義でどのような違いがあるか認識できました！
 
-Non-code blocks are ignored.
+実際ここまで知らなくても動作上は問題ない場合が多いと思いますが
 
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
+Vueが提供してくれているもの（computedなど）の特徴を知っておくことで
+
+各APIの**正しい使い方**を理解し
+
+より**スマートなプロダクト**になっていくと思います！
+
 
 ---
 
