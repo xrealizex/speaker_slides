@@ -58,8 +58,8 @@ transition: fade-out
 # はじめに
 <div class="mt-10">
   <p>Vue.jsの学習を振り返り......</p>
-  <p>どのように学習したか - Approach</p>
-  <p>どのような行動を取ったか - Action</p>
+  <p>どのような学習したか</p>
+  <p>どのようなことがあったか</p>
   <p>について話していきます</p>
   <p>少しでも参考になるものがあれば幸いです！</p>
 </div>
@@ -68,7 +68,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-# チュートリアル -Approach
+# チュートリアル
 
 https://ja.vuejs.org/tutorial/#step-1
 
@@ -118,7 +118,7 @@ Vueが提供してくれているもの（computedなど）の特徴を知って
 transition: fade-out
 ---
 
-# chibivue -Action
+# chibivue
 
 https://ubugeeei.github.io/chibivue/
 
@@ -143,7 +143,7 @@ transition: fade-out
 
 # chibivue
 
-実際難しいです
+実際難しいです（まだ全然完走できていない）
 
 しかしそれ以上に楽しいです
 
@@ -153,19 +153,19 @@ transition: fade-out
 
 ひとりで**完全に理解した**状態になるのは難しい
 
-どうしたか？
+どうしよう......🤔
 ---
 transition: fade-out
 ---
 # chibivue
 
-ペアプロして頂けるという話もあり
+そんなとき......
 
-著者のubugeeeiさんに直接教えて頂くことにしました
+著者のubugeeeiさんに直接教えて頂く機会がありました！
 
-快諾して頂けて本当に嬉しかったです
+私にとって本当に貴重な経験でした（超絶感謝）
 
-どうだったか？
+実際どうだったか？
 
 ---
 transition: fade-out
@@ -173,6 +173,7 @@ transition: fade-out
 
 # chibivue
 
+* DI・DIPの理解につながった
 * 理解が深まりVueがより楽しくなった
 * 普段書かないコードに触れることで思考の幅が広がった
 * 刺激になった
@@ -199,7 +200,7 @@ transition: fade-out
 
 コミュニティへの貢献にもなるので
 
-積極的にアウトプットしていきましょう！（自戒）
+アウトプットの大切さを実感しました
 
 ---
 transition: fade-out
@@ -212,7 +213,7 @@ transition: fade-out
 * chibivueを通してVueの内部実装が大まかに分かる
   * Vueがより楽しくなる
 * 分からないことがあったら行動を起こしてみる
-  * 誰かしら助けてくれることが多い
+  * 誰かしら助けてくれるはず
   * 自己成長のチャンスになる
 * アウトプットしてみる
   * コミュニティに貢献できる
@@ -223,6 +224,8 @@ transition: fade-out
 ---
 
 # 情報収集
+
+私が情報収集でお世話になっているものをひたすら挙げていきます！
 
 ---
 
