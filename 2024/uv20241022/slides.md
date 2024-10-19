@@ -36,7 +36,7 @@ transition: fade-out
 1. はじめに
 2. チュートリアル
 3. chibivue
-4. 情報収集
+4. イベント参加
 6. おわりに
 
 <style>
@@ -98,7 +98,7 @@ image: ./public/images/computed-guide.png
 transition: fade-out
 ---
 
-# 改めてガイドを読む
+# つまり？
 
 何が言いたいかというと...
 
@@ -106,13 +106,23 @@ transition: fade-out
 
 先ほどの例ではcomputed定義とメソッド定義でどのような違いがあるか認識できました！
 
-実際ここまで知らなくても動作上は問題ない場合が多いと思いますが
+---
+transition: fade-out
+---
 
-Vueが提供してくれているもの（computedなど）の特徴を知っておくことで
+# まとめ
 
-各APIやビルトインの**正しい使い方**を理解し
+実際ここまで知らなくても動作上は問題ない場合が多いけど......
 
-より**スマートなプロダクト**になっていくと思います！
+* Vueが提供してくれているもの（computedなど）の特徴を知っておくことで
+
+* 各APIやビルトインの**正しい使い方**を理解し
+
+* Vueのエコシステムの恩恵を最大限享受できる
+
+と思います
+
+プロダクトをどんどんスマートにしていきましょう！
 
 ---
 transition: fade-out
@@ -141,7 +151,7 @@ chibivueとは？
 transition: fade-out
 ---
 
-# chibivue
+# 悩み
 
 実際難しいです（まだ全然完走できていない）
 
@@ -157,7 +167,7 @@ transition: fade-out
 ---
 transition: fade-out
 ---
-# chibivue
+# イベント
 
 そんなとき......
 
@@ -165,16 +175,15 @@ transition: fade-out
 
 私にとって本当に貴重な経験でした（超絶感謝）
 
-実際どうだったか？
-
 ---
 transition: fade-out
 ---
 
-# chibivue
+# どうだった？
 
-* DI・DIPの理解につながった
-* 理解が深まりVueがより楽しくなった
+* DI・DIPのおおまかな理解が得られた
+* Vue.js/coreのディレクトリ構成が理解できVueがより楽しくなった
+  * ドキュメントにない部分で詰まった時にソースコードを読みにいけるようになった
 * 普段書かないコードに触れることで思考の幅が広がった
 * 刺激になった
 * Vueコミュニティに貢献したいと思うようになった
@@ -183,18 +192,24 @@ transition: fade-out
 transition: fade-out
 ---
 
-# chibivue
+# ちょっと恩返し
 
-貢献の第一歩として記事を書きました
+恩返しの第一歩として記事を書きました
 
 [vuejs/core のソースコードを探検する楽しさ](https://zenn.dev/comm_vue_nuxt/articles/413285d321e495)
 
-記事を書くことで得られることは
+記事を書くことで得られたことは
 
-* 理解していることの整理
-* アウトプットによる理解の深まり
+* 理解できたことの整理
+* アウトプットによる理解の深堀り
 * 自身の認知向上
 * Vueコミュニティの認知（Vueコミュニティへの貢献）
+
+---
+transition: fade-out
+---
+
+# 所感
 
 自分だけしか知らないなんてことはないですし
 
@@ -206,7 +221,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-# chibivue
+# まとめ
 
 何が言いたいかというと......
 
@@ -223,9 +238,17 @@ transition: fade-out
 transition: fade-out
 ---
 
-# 情報収集
+# 補足
 
-私が情報収集でお世話になっているものをひたすら挙げていきます！
+chibivueにはDiscord Serverがあります！
+
+https://discord.gg/aVHvmbmSRy
+
+参加するだけで得られることが多いです
+
+参加しない理由がないです
+
+何が得られるかは是非ご自身の目でご確認を！
 
 ---
 
