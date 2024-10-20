@@ -42,7 +42,7 @@ hideInToc: true
 transition: fade-out
 ---
 
-# はじめに
+<Title title="はじめに" tag="h1" />
 <div class="mt-10">
   <p>Vue.jsの学習を振り返り......</p>
   <p>どのような学習したか</p>
@@ -55,7 +55,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-# チュートリアル
+<Title title="チュートリアル" tag="h1" />
 
 https://ja.vuejs.org/tutorial/#step-1
 
@@ -86,7 +86,8 @@ transition: fade-out
 hideInToc: true
 ---
 
-## つまり？
+<Title title="つまり？" tag="h1" />
+
 
 何が言いたいかというと...
 
@@ -99,7 +100,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## まとめ
+<Title title="まとめ" tag="h1" />
 
 実際ここまで知らなくても動作上は問題ない場合が多いけど......
 
@@ -117,7 +118,7 @@ hideInToc: true
 transition: fade-out
 ---
 
-# chibivue
+<Title title="chibivue" tag="h1" />
 
 https://ubugeeei.github.io/chibivue/
 
@@ -142,7 +143,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## 悩み
+<Title title="当時の悩み" tag="h1" />
 
 実際難しいです（まだ全然完走できていない）
 
@@ -160,7 +161,8 @@ hideInToc: true
 transition: fade-out
 hideInToc: true
 ---
-## イベント
+
+<Title title="ペアプロ？" tag="h1" />
 
 そんなとき......
 
@@ -173,7 +175,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## どうだった？
+<Title title="どうだった？" tag="h1" />
 
 * DI・DIPのおおまかな理解が得られた
 * Vue.js/coreのディレクトリ構成が理解できVueがより楽しくなった
@@ -187,7 +189,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## ちょっと恩返し
+<Title title="ちょっと恩返し" tag="h1" />
 
 恩返しの第一歩として記事を書きました
 
@@ -205,7 +207,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## 所感
+<Title title="所感" tag="h1" />
 
 自分だけしか知らないなんてことはないですし
 
@@ -218,7 +220,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## まとめ
+<Title title="まとめ" tag="h1" />
 
 何が言いたいかというと......
 
@@ -236,7 +238,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## 補足
+<Title title="補足" tag="h1" />
 
 chibivueにはDiscord Serverがあります！
 
@@ -252,7 +254,7 @@ https://discord.gg/aVHvmbmSRy
 transition: fade-out
 ---
 
-# イベント参加
+<Title title="イベント参加" tag="h1" />
 
 以下の目的を持ってイベントに参加していました
 
@@ -270,7 +272,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## イベント - 1
+<Title title="イベント - 1" tag="h1" />
 
 Vue.js v-tokyo Meetup #19
 
@@ -291,7 +293,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## どうだった？
+<Title title="どうだった？" tag="h1" />
 
 * 純粋に楽しかった
 * 温たかいコミュニティだなと感じた
@@ -307,7 +309,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## イベント - 2
+<Title title="イベント - 2" tag="h1" />
 
 Vue.js v-tokyo Meetup #21
 
@@ -328,7 +330,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## どうだった？
+<Title title="どうだった？" tag="h1" />
 
 * コミュニティの温たかさを再認識した
 * 技術面でも楽しめるようになっていた
@@ -343,7 +345,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## イベント - 3
+<Title title="イベント - 3" tag="h1" />
 
 Vue Fes Japan 2024
 
@@ -360,7 +362,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## どうだった？
+<Title title="どうだった？" tag="h1" />
 
 * 会場が大きくてびっくりした
 * 参加者が多くてびっくりした
@@ -373,7 +375,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## 支えてくれている人がいる
+<Title title="支えてくれている人がいる" tag="h1" />
 
 これだけの規模のイベントを準備・実行するにはどれだけの時間や苦労がかかるか
 
@@ -386,7 +388,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-## まとめ
+<Title title="まとめ" tag="h1" />
 
 何が言いたいかというと......
 
@@ -404,7 +406,7 @@ hideInToc: true
 transition: fade-out
 ---
 
-# 終わりに
+<Title title="終わりに" tag="h1" />
 
 ---
 
