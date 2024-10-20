@@ -2,7 +2,7 @@
 theme: default
 title: Vue.js 学習の振り返り
 highlighter: shiki
-colorSchema: light
+colorSchema: dark
 class: text-center
 drawings:
   persist: false
@@ -10,6 +10,7 @@ transition: fade-out
 mdc: true
 htmlAttrs:
   lang: ja
+hideInToc: true
 ---
 
 # <span class="text-green-600">Vue.js</span> 学習の振り返り<carbon-logo-vue />
@@ -30,26 +31,12 @@ htmlAttrs:
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
 # アジェンダ
-1. はじめに
-2. チュートリアル
-3. chibivue
-4. イベント参加
-6. おわりに
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+<Toc />
 
 ---
 transition: fade-out
@@ -96,9 +83,10 @@ image: ./public/images/computed-guide.png
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# つまり？
+## つまり？
 
 何が言いたいかというと...
 
@@ -108,9 +96,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# まとめ
+## まとめ
 
 実際ここまで知らなくても動作上は問題ない場合が多いけど......
 
@@ -147,11 +136,13 @@ chibivueとは？
 >   実装と本家のコードとの関連を把握して，実際にどんな実装になっているのかを把握する
 
 何やら難しそう......🤔
+
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# 悩み
+## 悩み
 
 実際難しいです（まだ全然完走できていない）
 
@@ -164,10 +155,12 @@ transition: fade-out
 ひとりで**完全に理解した**状態になるのは難しい
 
 どうしよう......🤔
+
 ---
 transition: fade-out
+hideInToc: true
 ---
-# イベント
+## イベント
 
 そんなとき......
 
@@ -177,9 +170,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# どうだった？
+## どうだった？
 
 * DI・DIPのおおまかな理解が得られた
 * Vue.js/coreのディレクトリ構成が理解できVueがより楽しくなった
@@ -190,9 +184,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# ちょっと恩返し
+## ちょっと恩返し
 
 恩返しの第一歩として記事を書きました
 
@@ -207,9 +202,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# 所感
+## 所感
 
 自分だけしか知らないなんてことはないですし
 
@@ -219,9 +215,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# まとめ
+## まとめ
 
 何が言いたいかというと......
 
@@ -236,9 +233,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# 補足
+## 補足
 
 chibivueにはDiscord Serverがあります！
 
@@ -269,9 +267,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# イベント - 1
+## イベント - 1
 
 Vue.js v-tokyo Meetup #19
 
@@ -289,9 +288,10 @@ Xで交流のあった方何人かと顔合わせできた
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# どうだった？
+## どうだった？
 
 * 純粋に楽しかった
 * 温たかいコミュニティだなと感じた
@@ -304,9 +304,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# イベント - 2
+## イベント - 2
 
 Vue.js v-tokyo Meetup #21
 
@@ -324,9 +325,10 @@ Nuxtなんもわからん状態だったので必死にキャッチアップし�
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# どうだった？
+## どうだった？
 
 * コミュニティの温たかさを再認識した
 * 技術面でも楽しめるようになっていた
@@ -338,9 +340,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# イベント - 3
+## イベント - 3
 
 Vue Fes Japan 2024
 
@@ -354,9 +357,10 @@ Vue Fes Japan 2024
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# どうだった？
+## どうだった？
 
 * 会場が大きくてびっくりした
 * 参加者が多くてびっくりした
@@ -366,9 +370,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# 支えてくれている人がいる
+## 支えてくれている人がいる
 
 これだけの規模のイベントを準備・実行するにはどれだけの時間や苦労がかかるか
 
@@ -378,9 +383,10 @@ transition: fade-out
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# まとめ
+## まとめ
 
 何が言いたいかというと......
 
@@ -719,7 +725,7 @@ Double-click on the draggable elements to edit their positions.
 </v-drag>
 ```
 
-<v-drag pos="663,206,261,_,-15">
+<v-drag pos="663,206,261,_,-15"undefinedundefined>
   <div text-center text-3xl border border-main rounded>
     Double-click me!
   </div>
@@ -734,11 +740,6 @@ Double-click on the draggable elements to edit their positions.
 ```
 
 <v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
 
 ---
 
