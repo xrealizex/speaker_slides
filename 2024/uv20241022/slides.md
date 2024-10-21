@@ -145,30 +145,33 @@ hideInToc: true
 
 <Title title="当時の悩み" tag="h1" />
 
-実際難しいです（まだ全然完走できていない）
-
-しかしそれ以上に楽しいです
-
-いずれにせよ......
-
-業務では出会わない設計手法・コードが盛りだくさん
-
-ひとりで**完全に理解した**状態になるのは難しい
-
-どうしよう......🤔
+<div class="mt-10">
+  <p>実際難しいです（まだ全然完走できていない）</p>
+  <p>しかしそれ以上に楽しいです</p>
+  <p>いずれにせよ......</p>
+  <p>業務では出会わない設計手法・コードが盛りだくさん</p>
+  <p><span class="text-green-600" font-bold>ひとりで理解する</span>のは難しい</p>
+  <p>どうしよう......🤔</p>
+</div>
 
 ---
+layout: two-cols
 transition: fade-out
 hideInToc: true
 ---
 
 <Title title="ペアプロ？" tag="h1" />
 
-そんなとき......
+<div class="mt-10">
+  <p>そんなとき......</p>
+  <p>著者の<span class="text-green-600" font-bold>ubugeeeiさん</span>に</p>
+  <p>直接教えて頂く機会がありました！</p>
+  <p>私にとって本当に貴重な経験でした（超絶感謝）</p>
+</div>
 
-著者のubugeeeiさんに直接教えて頂く機会がありました！
+::right::
 
-私にとって本当に貴重な経験でした（超絶感謝）
+<Tweet id="1796856202569331006" scale="0.95" />
 
 ---
 transition: fade-out
@@ -177,30 +180,43 @@ hideInToc: true
 
 <Title title="どうだった？" tag="h1" />
 
-* DI・DIPのおおまかな理解が得られた
-* Vue.js/coreのディレクトリ構成が理解できVueがより楽しくなった
-  * ドキュメントにない部分で詰まった時にソースコードを読みにいけるようになった
-* 普段書かないコードに触れることで思考の幅が広がった
-* 刺激になった
-* Vueコミュニティに貢献したいと思うようになった
+<div class="mt-10">
+  <ul>
+    <li>DI・DIPのおおまかな理解が得られた</li>
+    <li>Vue.js/coreのディレクトリ構成が理解できVueがより楽しくなった
+      <ul>
+        <li><span class="text-green-600" font-bold>ドキュメントにない部分で詰まった時にソースコードを読みにいけるようになった</span></li>
+      </ul>
+    </li>
+    <li>普段書かないコードに触れることで思考の幅が広がった</li>
+    <li>刺激になった</li>
+    <li>Vueコミュニティに貢献したいと思うようになった</li>
+  </ul>
+</div>
 
 ---
+layout: two-cols
 transition: fade-out
 hideInToc: true
 ---
 
 <Title title="ちょっと恩返し" tag="h1" />
 
-恩返しの第一歩として記事を書きました
+<div class="mt-10">
+  <p>恩返しの第一歩として記事を書きました</p>
+  <a href="https://zenn.dev/comm_vue_nuxt/articles/413285d321e495">vuejs/core のソースコードを探検する楽しさ</a>
+  <p>記事を書くことで得られたことは</p>
+  <ul>
+    <li>理解できたことの整理</li>
+    <li>アウトプットによる理解の深堀り</li>
+    <li>自身の認知向上</li>
+    <li>Vueコミュニティの認知（Vueコミュニティへの貢献）</li>
+  </ul>
+</div>
 
-[vuejs/core のソースコードを探検する楽しさ](https://zenn.dev/comm_vue_nuxt/articles/413285d321e495)
+::right::
 
-記事を書くことで得られたことは
-
-* 理解できたことの整理
-* アウトプットによる理解の深堀り
-* 自身の認知向上
-* Vueコミュニティの認知（Vueコミュニティへの貢献）
+<Tweet id="1797837074244210811" scale="0.75" />
 
 ---
 transition: fade-out
@@ -209,11 +225,11 @@ hideInToc: true
 
 <Title title="所感" tag="h1" />
 
-自分だけしか知らないなんてことはないですし
-
-コミュニティへの貢献にもなるので
-
-アウトプットの大切さを実感しました
+<div class="mt-10">
+  <p>自分だけしか知らないなんてことはないですし</p>
+  <p><span class="text-green-600" font-bold>コミュニティへの貢献</span>にもなるので</p>
+  <p>アウトプットの大切さを実感しました</p>
+</div>
 
 ---
 transition: fade-out
@@ -222,16 +238,29 @@ hideInToc: true
 
 <Title title="まとめ" tag="h1" />
 
-何が言いたいかというと......
-
-* chibivueを通してVueの内部実装が大まかに分かる
-  * Vueがより楽しくなる
-* 分からないことがあったら行動を起こしてみる
-  * 誰かしら助けてくれるはず
-  * 自己成長のチャンスになる
-* アウトプットしてみる
-  * コミュニティに貢献できる
-  * 誰か見てくれている（今回の登壇も記事がきっかけでした）
+<div class="mt-10">
+  <p>何が言いたいかというと......</p>
+  <br>
+  <ul>
+    <li>chibivueを通してVueの内部実装が大まかに分かる
+      <ul>
+        <li><span class="text-green-600" font-bold>Vueがより楽しくなる</span></li>
+      </ul>
+    </li>
+    <li>分からないことがあったら行動を起こしてみる
+      <ul>
+        <li>誰かしら助けてくれるはず</li>
+        <li>自己成長のチャンスになる</li>
+      </ul>
+    </li>
+    <li>アウトプットしてみる
+      <ul>
+        <li><span class="text-green-600" font-bold>コミュニティに貢献できる</span></li>
+        <li>誰か見てくれている（今回の登壇も記事がきっかけでした）</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 ---
 transition: fade-out
@@ -240,15 +269,13 @@ hideInToc: true
 
 <Title title="補足" tag="h1" />
 
-chibivueにはDiscord Serverがあります！
-
-https://discord.gg/aVHvmbmSRy
-
-参加するだけで得られることが多いです
-
-参加しない理由がないです
-
-何が得られるかは是非ご自身の目でご確認を！
+<div class="mt-10">
+  <p>chibivueにはDiscord Serverがあります！</p>
+  <a href="https://discord.gg/aVHvmbmSRy">https://discord.gg/aVHvmbmSRy</a>
+  <p><span class="text-green-600" font-bold>参加するだけで</span>得られることが多いです</p>
+  <p>参加しない理由がないです</p>
+  <p>何が得られるかは是非ご自身の目でご確認を！</p>
+</div>
 
 ---
 transition: fade-out
@@ -754,7 +781,7 @@ Double-click on the draggable elements to edit their positions.
 </v-drag>
 ```
 
-<v-drag pos="663,206,261,_,-15"undefinedundefined>
+<v-drag pos="663,206,261,_,-15"undefinedundefinedundefined>
   <div text-center text-3xl border border-main rounded>
     Double-click me!
   </div>
