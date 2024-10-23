@@ -56,7 +56,7 @@ hideInToc: true
 <Title title="アジェンダ" tag="h1" />
 <div class="mt-20">
   <p>1・・・はじめに</p>
-  <p>2・・・チュートリアル</p>
+  <p>2・・・チュートリアル - ガイド</p>
   <p>3・・・chibivue</p>
   <p>4・・・イベント参加</p>
   <p>5・・・おわりに</p>
@@ -94,13 +94,13 @@ transition: fade-out
 hideInToc: true
 ---
 
-<Title title="チュートリアル" tag="h1" />
+<Title title="チュートリアル - ガイド" tag="h1" />
 
 ---
 transition: fade-out
 ---
 
-<Title title="チュートリアル" tag="h1" />
+<Title title="チュートリアル - ガイド" tag="h1" />
 
 <div class="mt-10">
   <a href="https://ja.vuejs.org/tutorial/#step-1">https://ja.vuejs.org/tutorial/#step-1</a>
@@ -201,7 +201,6 @@ hideInToc: true
 <div class="mt-10">
   <p>実際難しいです（まだ全然完走できていない）</p>
   <p>しかしそれ以上に楽しいです</p>
-  <p>いずれにせよ......</p>
   <p>業務では出会わない設計手法・コードが盛りだくさん</p>
   <p><span class="text-green-600" font-bold>ひとりで理解する</span>のは難しい</p>
   <p>どうしよう......🤔</p>
