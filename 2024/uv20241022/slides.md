@@ -11,6 +11,7 @@ mdc: true
 htmlAttrs:
   lang: ja
 hideInToc: true
+exportFilename: Vue.js学習の振り返り
 ---
 
 # <span class="text-green-600">Vue.js</span> 学習の振り返り<carbon-logo-vue />
@@ -223,7 +224,8 @@ hideInToc: true
 
 ::right::
 
-<Tweet id="1796856202569331006" scale="0.95" v-click/>
+<!-- <Tweet id="1796856202569331006" scale="0.95" v-click/> -->
+https://x.com/hiro_xre/status/1796856202569331006
 
 ---
 transition: fade-out
@@ -271,7 +273,8 @@ hideInToc: true
 
 ::right::
 
-<Tweet id="1797837074244210811" scale="0.75" />
+<!-- <Tweet id="1797837074244210811" scale="0.75" /> -->
+https://x.com/hiro_xre/status/1797837074244210811
 
 ---
 transition: fade-out
@@ -391,7 +394,8 @@ hideInToc: true
 
 ::right::
 
-<Tweet id="1765316995904606552" scale="0.85" />
+<!-- <Tweet id="1765316995904606552" scale="0.85" /> -->
+https://x.com/vuefes/status/1765316995904606552
 
 ---
 transition: fade-out
@@ -431,7 +435,8 @@ hideInToc: true
 
 ::right::
 
-<Tweet id="1816063578866352515" scale="0.95" cards="hidden"/>
+<!-- <Tweet id="1816063578866352515" scale="0.95" cards="hidden"/> -->
+https://x.com/vuefes/status/1816063578866352515
 
 ---
 transition: fade-out
